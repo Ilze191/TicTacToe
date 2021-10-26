@@ -35,8 +35,8 @@ object TicTac extends App {
         var playAg = board.playAgain()
         if (playAg == true) {
           board.resetBoard
-          board.showBoard
-          gameStat = false
+          //board.showBoard
+          gameStat = true
         } else if (playAg == false) {gameStat = true}
       }
     }
